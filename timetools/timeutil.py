@@ -1,6 +1,12 @@
+import requests
+
 from datetime import datetime, timedelta
 
 class TimeUtil:
+
+    @staticmethod
+    def getDependency():
+        return requests.get("http://www.baidu.com")
     
     @staticmethod
     def get_start_of_date(date: datetime) -> datetime:

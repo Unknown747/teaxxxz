@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="python-timetools",
-    version="1.0.1",
+    version="1.0.2",
     author="neason",
     author_email="xgx93610@gmail.com",
     description="python time tools",
@@ -14,7 +14,7 @@ setuptools.setup(
     url="https://github.com/xuguox/timetools",
     packages=setuptools.find_packages(),
     python_requires='>=3.7.0',
-    install_requires=[],
+    install_requires=["requests"],
     license='MIT',
     classifiers=[
         "Programming Language :: Python :: 3",

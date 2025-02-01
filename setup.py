@@ -22,6 +22,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     project_urls={
-        "Source": "https://github.com/xuguox/timetools",
+        "Source": "https://github.com/Unknown747/teaxxxz/",
     },
 )
